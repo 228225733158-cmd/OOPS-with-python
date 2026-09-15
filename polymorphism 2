@@ -1,0 +1,10 @@
+class dog:
+  def eat(self):
+    print("dog ears food")
+class cat:
+  def eat(self):
+    print("cat eats food")
+def show(eating):
+  eating.eat()
+show(dog())
+show(cat())
